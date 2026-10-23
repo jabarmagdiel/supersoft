@@ -288,7 +288,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
                   <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-[#0B0754] border border-[#20CBE5]/30 text-[11px] font-mono text-[#20CBE5] uppercase tracking-wider mb-2.5">
                     {currentTab.badge}
                   </div>
-                  <h3 className="font-heading text-xl sm:text-2xl font-bold text-white mb-2 leading-tight">
+                  <h3 style={{ color: "#FFFFFF" }} className="font-heading text-xl sm:text-2xl font-bold mb-2 leading-tight">
                     {currentTab.title}
                   </h3>
                   <p className="text-slate-300 text-sm leading-relaxed mb-4">

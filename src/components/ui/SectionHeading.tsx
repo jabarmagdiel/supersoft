@@ -54,11 +54,12 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+        style={{ color: isLight ? "#07053B" : "#FFFFFF" }}
         className={`font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight leading-[1.15] ${
           isLight ? "text-[#07053B]" : "text-white"
         }`}
       >
-        {title}{" "}
+        <span style={{ color: isLight ? "#07053B" : "#FFFFFF" }}>{title}</span>{" "}
         {highlightedText && (
           <span
             className={

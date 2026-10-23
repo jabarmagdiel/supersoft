@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
 
           {/* Columna Navegación Rápida */}
           <div className="lg:col-span-3">
-            <h4 className="text-xs font-mono uppercase tracking-[0.2em] text-[#20CBE5] font-semibold mb-5">
+            <h4 style={{ color: "#20CBE5" }} className="text-xs font-mono uppercase tracking-[0.2em] font-semibold mb-5">
               Navegación
             </h4>
             <ul className="space-y-3 text-sm">
@@ -85,7 +85,7 @@ export const Footer: React.FC = () => {
 
           {/* Columna Servicios */}
           <div className="lg:col-span-4">
-            <h4 className="text-xs font-mono uppercase tracking-[0.2em] text-[#20CBE5] font-semibold mb-5">
+            <h4 style={{ color: "#20CBE5" }} className="text-xs font-mono uppercase tracking-[0.2em] font-semibold mb-5">
               Soluciones Principales
             </h4>
             <ul className="space-y-3 text-sm">

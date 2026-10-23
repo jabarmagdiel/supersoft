@@ -134,7 +134,7 @@ export const Services: React.FC<ServicesProps> = ({ onSelectService }) => {
                 </div>
 
                 <div className="mt-5 relative z-10">
-                  <h4 className="font-heading text-2xl font-bold text-white">
+                  <h4 style={{ color: "#FFFFFF" }} className="font-heading text-2xl font-bold">
                     {activeService.title}
                   </h4>
                   <p className="mt-2 text-sm text-slate-300 font-sans leading-relaxed">

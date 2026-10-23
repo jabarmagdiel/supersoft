@@ -35,7 +35,7 @@ export const About: React.FC = () => {
   ];
 
   return (
-    <section id="nosotros" className="relative py-24 sm:py-32 bg-[#07053B] text-white border-t border-white/[0.08] overflow-hidden">
+    <section id="nosotros" className="section-dark relative py-24 sm:py-32 bg-[#07053B] text-white border-t border-white/[0.08] overflow-hidden">
       {/* Luz ambiental suave */}
       <div className="pointer-events-none absolute top-1/4 left-0 w-[500px] h-[500px] bg-[#0B0754]/80 blur-[150px]" />
       <div className="pointer-events-none absolute bottom-10 right-0 w-[450px] h-72 bg-[#20CBE5]/10 blur-[160px]" />
@@ -71,14 +71,14 @@ export const About: React.FC = () => {
               <div className="p-4 rounded-2xl bg-[#0B0754] border border-white/10 flex items-start gap-3">
                 <CheckCircle2 className="w-5 h-5 text-[#20CBE5] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-sm font-bold text-white font-heading">Hecho a tu Medida</h4>
+                  <h4 style={{ color: "#FFFFFF" }} className="text-sm font-bold font-heading">Hecho a tu Medida</h4>
                   <p className="text-xs text-slate-300 mt-1">Adaptado a tus flujos reales de venta y stock.</p>
                 </div>
               </div>
               <div className="p-4 rounded-2xl bg-[#0B0754] border border-white/10 flex items-start gap-3">
                 <ShieldCheck className="w-5 h-5 text-[#20CBE5] shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="text-sm font-bold text-white font-heading">Especialistas Laravel</h4>
+                  <h4 style={{ color: "#FFFFFF" }} className="text-sm font-bold font-heading">Especialistas Laravel</h4>
                   <p className="text-xs text-slate-300 mt-1">Código limpio, seguro, ágil y mantenible.</p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export const About: React.FC = () => {
                   <span className="text-xs font-mono text-[#20CBE5] uppercase tracking-wider block font-semibold">
                     Compromiso de Calidad
                   </span>
-                  <span className="text-sm font-semibold text-white font-heading">
+                  <span style={{ color: "#FFFFFF" }} className="text-sm font-semibold font-heading">
                     Comunicación Directa · Desarrollo Ágil en Laravel · Entregas Continuas
                   </span>
                 </div>
@@ -127,7 +127,7 @@ export const About: React.FC = () => {
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0B0754] border border-white/10 text-[#20CBE5] text-xs font-mono uppercase tracking-[0.2em] mb-3">
               PROPÓSITO Y DIRECCIÓN
             </span>
-            <h3 className="font-heading text-2xl sm:text-3xl font-bold text-white">
+            <h3 style={{ color: "#FFFFFF" }} className="font-heading text-2xl sm:text-3xl font-bold">
               Nuestra Brújula Estratégica
             </h3>
           </div>
@@ -156,7 +156,7 @@ export const About: React.FC = () => {
                   <span className="font-mono text-3xl font-light text-slate-500">01</span>
                 </div>
 
-                <blockquote className="mt-6 font-heading text-lg sm:text-xl font-bold text-white leading-relaxed">
+                <blockquote style={{ color: "#FFFFFF" }} className="mt-6 font-heading text-lg sm:text-xl font-bold leading-relaxed">
                   “Desarrollar soluciones de software innovadoras, seguras y adaptadas a las necesidades de nuestros clientes, mediante tecnología de calidad que optimice sus procesos, mejore su productividad e impulse su transformación digital.”
                 </blockquote>
               </div>
@@ -190,7 +190,7 @@ export const About: React.FC = () => {
                   <span className="font-mono text-3xl font-light text-slate-500">02</span>
                 </div>
 
-                <blockquote className="mt-6 font-heading text-lg sm:text-xl font-bold text-white leading-relaxed">
+                <blockquote style={{ color: "#FFFFFF" }} className="mt-6 font-heading text-lg sm:text-xl font-bold leading-relaxed">
                   “Consolidarnos como una empresa referente en el desarrollo de software y soluciones tecnológicas en Bolivia, con proyección internacional, reconocida por la calidad de nuestros productos, nuestra capacidad de innovación y el valor que generamos para nuestros clientes.”
                 </blockquote>
               </div>
@@ -210,7 +210,7 @@ export const About: React.FC = () => {
               <span className="text-xs font-mono text-[#20CBE5] uppercase tracking-wider block font-semibold">
                 NUESTRO ENTORNO DE DESARROLLO
               </span>
-              <h3 className="font-heading text-2xl sm:text-3xl font-bold text-white mt-1">
+              <h3 style={{ color: "#FFFFFF" }} className="font-heading text-2xl sm:text-3xl font-bold mt-1">
                 La Base Tecnológica con la que Construimos
               </h3>
             </div>
@@ -234,7 +234,7 @@ export const About: React.FC = () => {
                       0{index + 1}
                     </span>
                   </div>
-                  <h4 className="text-sm font-bold text-white font-heading">
+                  <h4 style={{ color: "#FFFFFF" }} className="text-sm font-bold font-heading">
                     {layer.title}
                   </h4>
                   <p className="mt-2 text-xs text-slate-200 leading-relaxed font-sans">

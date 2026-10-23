@@ -39,9 +39,10 @@ export const CtaSection: React.FC<CtaSectionProps> = ({ onOpenContact }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="font-heading text-3xl sm:text-5xl font-bold text-white tracking-tight leading-[1.15]"
+            style={{ color: "#FFFFFF" }}
+            className="font-heading text-3xl sm:text-5xl font-bold tracking-tight leading-[1.15]"
           >
-            ¿Listo para digitalizar tu negocio con{" "}
+            <span style={{ color: "#FFFFFF" }}>¿Listo para digitalizar tu negocio con</span>{" "}
             <span className="text-[#20CBE5] block sm:inline">
               software hecho a tu medida?
             </span>
@@ -52,7 +53,8 @@ export const CtaSection: React.FC<CtaSectionProps> = ({ onOpenContact }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="mt-6 text-base sm:text-lg text-slate-200 font-sans max-w-2xl mx-auto leading-relaxed"
+            style={{ color: "#E2E8F0" }}
+            className="mt-6 text-base sm:text-lg font-sans max-w-2xl mx-auto leading-relaxed"
           >
             Ya sea una landing page para multiplicar tus ventas o un sistema ERP en Laravel para controlar tu inventario y caja, en SuperSoft construimos la herramienta que necesitas.
           </motion.p>
