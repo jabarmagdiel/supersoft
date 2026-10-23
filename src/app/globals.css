@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  /* Paleta cromática oficial de SuperSoft: Armonía de Azul Marino, Blanco y Cian */
+  --brand-navy: #07053B;
+  --brand-navy-medium: #0B0754;
+  --brand-navy-light: #120D63;
+  --brand-cyan: #20CBE5;
+  --brand-cyan-hover: #17B2CA;
+  --brand-cyan-light: #67E8F9;
+  
+  --brand-white: #FFFFFF;
+  --brand-slate-light: #F8FAFC;
+  --brand-slate-border: #E2E8F0;
+  --brand-text-dark: #07053B;
+  --brand-text-muted: #64748B;
+}
+
+@theme inline {
+  --color-brand-navy: #07053B;
+  --color-brand-navy-medium: #0B0754;
+  --color-brand-navy-light: #120D63;
+  --color-brand-cyan: #20CBE5;
+  --color-brand-cyan-light: #67E8F9;
+
+  --font-heading: var(--font-heading);
+  --font-sans: var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+  background-color: #FFFFFF;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #1E293B;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  letter-spacing: -0.01em;
+}
+
+/* Tipografía de títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), system-ui, sans-serif;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+  color: #07053B;
+}
+
+.font-heading {
+  font-family: var(--font-heading), system-ui, sans-serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Secciones oscuras en azul marino institucional */
+.section-dark {
+  background-color: #07053B;
+  color: #F8FAFC;
+}
+
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.section-dark h4,
+.section-dark h5,
+.section-dark h6 {
+  color: #FFFFFF;
+}
+
+/* Tarjeta clara con sombra suave y acento cian en hover */
+.card-light {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 20px -4px rgba(7, 5, 59, 0.05);
+}
+
+.card-light:hover {
+  border-color: #20CBE5;
+  box-shadow: 0 12px 30px -8px rgba(32, 203, 229, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Tarjeta oscura para showcases */
+.card-dark {
+  background-color: #0B0754;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-dark:hover {
+  border-color: #20CBE5;
+  box-shadow: 0 12px 35px -8px rgba(32, 203, 229, 0.3);
+}
+
+/* Scrollbar estilizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #20CBE5;
+}
